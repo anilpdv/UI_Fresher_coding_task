@@ -58,7 +58,7 @@ function Register(props) {
         window.localStorage.setItem(
           'users',
           JSON.stringify([user]),
-          props.history.push('/dashboard'),
+          props.history.push('/'),
         );
       }
       console.log(users);
