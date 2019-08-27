@@ -1,0 +1,12 @@
+form {
+  width: 400px;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.Login-link {
+  display: inline-block;
+  font-size: 16px;
+  font-family: Lato;
+  margin-left: 20px;
+}
