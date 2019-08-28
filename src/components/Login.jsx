@@ -36,6 +36,8 @@ function Login(props) {
           } else {
             setError("password is incorrect");
           }
+        } else {
+          setError("email not found");
         }
       });
     } else {
